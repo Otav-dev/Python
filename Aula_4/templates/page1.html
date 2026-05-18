@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+{% extends 'layout.html' %}
+
+
+{% block title %}
+
+Currículo
+
+
+
+{% endblock %}
+
+{% block content %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Otávio</title>
+
+</head>
+<body>
+<div id="curriculo">
+    <header>
+        <h1>Otávio Cesar</h1>
+        <div class="info-contato">
+            <p>Telefone: (11) 99999-9999</p>
+            <p>E-mail: otaviocesarnudo@gmail.com</p>
+        </div>
+    </header>
+
+    <section>
+        <h2>Experiência de Trabalho</h2>
+        <div class="experiencia">
+            <p class="empresa">Empresa XYZ - Analista de Sistemas</p>
+            <p class="data">Jan 2020 - Atual</p>
+            <ul>
+                <li>Desenvolvimento de aplicações web com Flask.</li>
+                <li>Otimização de bancos de dados SQL.</li>
+            </ul>
+        </div>
+        <div class="experiencia">
+            <p class="empresa">Empresa ABC - Estagiário de TI</p>
+            <p class="data">Jan 2018 - Dez 2019</p>
+            <ul>
+                <li>Suporte técnico e manutenção de computadores.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Educação</h2>
+        <div class="educacao">
+            <p class="escola">Universidade Exemplo - Bacharelado em Ciência da Computação</p>
+            <p class="data">2016 - 2020</p>
+        </div>
+        <div class="educacao">
+            <p class="escola">Escola Técnica Estadual - Ensino Médio Técnico</p>
+            <p class="data">2013 - 2015</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Cursos e Certificações</h2>
+        <div class="cursos">
+            <ul>
+                <li>Curso Avançado de Python - Udemy</li>
+                <li>Flask Web Development - Coursera</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Idiomas</h2>
+        <ul>
+            <li><strong>Inglês:</strong> Avançado</li>
+            <li><strong>Espanhol:</strong> Intermediário</li>
+        </ul>
+    </section>
+</div>
+    {% endblock %}
+</body>
+</html>
